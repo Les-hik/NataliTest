@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,22 +13,22 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NataliTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Натусик КУ-КУ!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qEZ-KL-3Jd">
-                                <rect key="frame" x="57" y="211" width="300" height="44"/>
+                                <rect key="frame" x="37.5" y="167" width="300" height="44"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldItalicMT" family="Times New Roman" pointSize="39"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30g-lQ-7go">
-                                <rect key="frame" x="129" y="694" width="156" height="30"/>
+                                <rect key="frame" x="102.5" y="493" width="170" height="36"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="156" id="OCE-6b-Tlg"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="f7C-aB-OJE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Нажмите кнопку">
                                     <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
@@ -37,10 +37,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.68520626135620266" green="1" blue="0.55370426235366588" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="30g-lQ-7go" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N27-bo-htU"/>
                             <constraint firstItem="qEZ-KL-3Jd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="167" id="Pyh-Mg-Lkt"/>
+                            <constraint firstItem="30g-lQ-7go" firstAttribute="centerX" secondItem="qEZ-KL-3Jd" secondAttribute="centerX" id="Zip-Uc-XjP"/>
                             <constraint firstItem="qEZ-KL-3Jd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="axs-qg-zir"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="30g-lQ-7go" secondAttribute="bottom" constant="138" id="ePs-hc-wI2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="30g-lQ-7go" secondAttribute="bottom" constant="138" id="wnn-5g-Yjx"/>
                         </constraints>
                     </view>
                 </viewController>
