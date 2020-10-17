@@ -13,10 +13,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        kukuNatusikLable.isHidden = true
+        kukuNatusikLable.textColor = .blue
+        switchButton.layer.cornerRadius = 10
     }
-
+    
     @IBAction func pressButton() {
+        if kukuNatusikLable.isHidden {
+            kukuNatusikLable.isHidden = false
+            switchButton.setTitle("Нажмите кнопку", for: .normal)
+        } else {
+            kukuNatusikLable.isHidden = true
+            switchButton.setTitle("Еще раз нажмите", for: .normal)
+        }
     }
     
 }
