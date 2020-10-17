@@ -32,6 +32,9 @@
                                 <state key="normal" title="Нажмите кнопку">
                                     <color key="titleColor" systemColor="systemPinkColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="pressButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="rXa-LF-Ip3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -43,6 +46,10 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="30g-lQ-7go" secondAttribute="bottom" constant="138" id="wnn-5g-Yjx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="kukuNatusikLable" destination="qEZ-KL-3Jd" id="ol6-Pp-DqK"/>
+                        <outlet property="switchButton" destination="30g-lQ-7go" id="bQC-uD-84J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
